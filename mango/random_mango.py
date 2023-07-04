@@ -1,5 +1,5 @@
 import streamlit as st
-
+st.set_page_config(page_title='Rotting Mango Checker', page_icon='🥭')
 st.title('Rotting Mango Checker 🥭')
 st.write('Answer the questions below honestly to see if your mangoes are rotting from the inside 🤢')
 
