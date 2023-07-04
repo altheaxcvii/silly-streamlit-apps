@@ -65,7 +65,9 @@ if st.session_state['state'] == 'third':
 
 if st.session_state['state'] == 'last':
     st.error('Mango definitely rotting', icon="⚠️")
+    st.cache_resource.clear()
 
 if st.session_state['state'] == 'safe':
     st.balloons()
     st.write('Your mango is probably safe')
+    st.cache_resource.clear()
